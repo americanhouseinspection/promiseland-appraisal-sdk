@@ -1,0 +1,33 @@
+{
+  "name": "promiseland-appraisal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only Node.js SDK and CLI for Promise Land Appraisal's public API.",
+  "type": "module",
+  "homepage": "https://promiselandappraisals.com/developers/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/americanhouseinspection/promiseland-appraisal-sdk.git"
+  },
+  "bugs": "https://github.com/americanhouseinspection/promiseland-appraisal-sdk/issues",
+  "exports": "./index.js",
+  "bin": {
+    "promiseland-appraisal": "./bin/promiseland-appraisal.js"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "promiseland-appraisal",
+    "residential-appraisal",
+    "houston",
+    "real-estate",
+    "public-api",
+    "cli"
+  ]
+}
